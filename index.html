@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="div-col-md-12">
+                <form action="#" name="calculator" class="main">
+                    <input type="text" id="result" class="display form-control mb-3" name="display">
+                    <input type="button" id="" onclick="clearBox()" class="btn btn-primary ms-1 mb-1" value="AC">
+                    <input type="button" id="" onclick="displayNum('/')" class="btn btn-primary ms-1 mb-1" value="/">
+                    <input type="button" id="" onclick="displayNum('*')" class="btn btn-primary ms-1 mb-1" value="X">
+                    <input type="button" id="" onclick="displayNum('-')" class="btn btn-primary ms-1 mb-1" value="-"><br>
+                    <input type="button" id="" onclick="displayNum(7)" class="btn btn-primary ms-1 mb-1" value="7">
+                    <input type="button" id="" onclick="displayNum(8)" class="btn btn-primary ms-1 mb-1" value="8">
+                    <input type="button" id="" onclick="displayNum(9)" class="btn btn-primary ms-1 mb-1" value="9">
+                    <input type="button" id="" onclick="displayNum('+')" class="btn btn-primary ms-1 mb-1" value="+"><br>
+                    <input type="button" id="" onclick="displayNum(4)" class="btn btn-primary ms-1 mb-1" value="4">
+                    <input type="button" id="" onclick="displayNum(5)" class="btn btn-primary ms-1 mb-1" value="5">
+                    <input type="button" id="" onclick="displayNum(6)" class="btn btn-primary ms-1 mb-1" value="6">
+                    <input type="button" id="" onclick="evaluateExpr()" class="btn btn-primary ms-1 mb-1" value="="><br>
+                    <input type="button" id="" onclick="displayNum(1)" class="btn btn-primary ms-1 mb-1" value="1">
+                    <input type="button" id="" onclick="displayNum(2)" class="btn btn-primary ms-1 mb-1" value="2">
+                    <input type="button" id="" onclick="displayNum(3)" class="btn btn-primary ms-1 mb-1" value="3">
+                    <input type="button" id="" onclick="displayNum(0)" class="btn btn-primary ms-1 mb-1" value="0">
+                    <input type="button" id="" onclick="removeItem()" class="btn btn-primary ms-1 mb-1" value=&#9003;>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./calc.js"></script>
+</html>
